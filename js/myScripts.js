@@ -1,5 +1,39 @@
 /* Made By Eric Zorn */
 
-var socialIcons = document.getElementsByClassName('socialIcons');
+function checkLoad() {
+    "use strict";
+    var loaded = console.log("The document is loaded properly!");
 
-socialIcons.style.marginLeft = "400px";
+    document.addEventListener('load', loaded);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.document.onload = checkLoad();
