@@ -88,5 +88,24 @@ body {
   float: left;
 }
 
+.infoContainer {
+  width: 90%;
+
+  .topicHeader {
+    color: $yellow;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 5%;
+  }
+
+  .resume-info {
+    color: $white;
+    font-weight: 25px;
+    padding-left: 10%;
+  }
+
+}
+
+
 
 
