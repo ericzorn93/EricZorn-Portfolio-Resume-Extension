@@ -8,6 +8,19 @@ function checkLoad() {
 }
 
 
+function getId(id) {
+    "use strict";
+    document.getElementById(id);
+}
+
+
+function fillData() {
+    "use strict";
+    getId("name").innerHTML = "< Hey Everyone, my name is Eric Zorn! />";
+}
+
+
+
 
 
 
